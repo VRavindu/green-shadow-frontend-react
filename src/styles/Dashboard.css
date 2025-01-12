@@ -1,0 +1,36 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    border-radius: 20px;
+    /*background-color: white;*/
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 85vh;
+    position: relative;
+}
+/* Cards */
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+
+}
+
+.card {
+    background-color: #ccc;
+    height: 30vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px 50px 0px 50px;
+}

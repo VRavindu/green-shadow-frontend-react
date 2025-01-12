@@ -1,0 +1,6 @@
+.custom-icon {
+    @apply w-9 h-9 ml-3;
+}
+.menu-name {
+    @apply text-sm font-bold text-[28px];
+}
