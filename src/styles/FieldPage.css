@@ -1,0 +1,144 @@
+.container-main {
+    display: flex;
+    flex-direction: column; /* Ensures the main content is stacked vertically */
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    background-image: url('../assets/image/backgound-greenleaf2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 20vw;
+    transition: border-color 0.3s;
+}
+
+.search-bar:focus {
+    border-color: #8ef067;
+    outline: none;
+}
+
+.search-btn {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #8ef067;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #76c657;
+}
+
+.add-button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #76ee46;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #65cc3b;
+}
+
+.cards-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.field-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.field-card:hover {
+    transform: translateY(-5px);
+}
+
+.field-image-container {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    overflow: hidden;
+}
+
+.field-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.field-image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f0f0f0;
+    color: #aaa;
+}
+
+.field-details {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e0e0e0;
+}
+
+.field-details h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.field-details p {
+    font-size: 14px;
+    color: #555;
+}
+
+.update-button {
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #007bff;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.update-button:hover {
+    color: #0056b3;
+}

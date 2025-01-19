@@ -27,57 +27,57 @@ export function SideMenu() {
                     </div>
 
                     <div className="menu-item group w-full p-2 flex items-center cursor-pointer transition duration-300 hover:bg-green-400 rounded-full">
-                        <a href="#" className="flex items-center space-x-4">
+                        <Link to="/field" className="flex items-center space-x-4">
                             <div className="icon flex justify-center items-center">
                                 <img src={farmIcon} alt="Field" className="custom-icon" />
                             </div>
                             <span className="menu-name opacity-0 group-hover:opacity-100 group-hover:ml-2 transition-all duration-300 text-gray-800 font-bold text-lg">Field</span>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="menu-item group w-full p-2 flex items-center cursor-pointer transition duration-300 hover:bg-green-400 rounded-full">
-                        <a href="#" className="flex items-center space-x-4">
+                        <Link to="/staff" className="flex items-center space-x-4">
                             <div className="icon flex justify-center items-center">
                                 <img src={employeeIcon} alt="Staff" className="custom-icon" />
                             </div>
                             <span className="menu-name opacity-0 group-hover:opacity-100 group-hover:ml-2 transition-all duration-300 text-gray-800 font-bold text-lg">Staff</span>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="menu-item group w-full p-2 flex items-center cursor-pointer transition duration-300 hover:bg-green-400 rounded-full">
-                        <a href="#" className="flex items-center space-x-4">
+                        <Link to="/vehicle" className="flex items-center space-x-4">
                             <div className="icon flex justify-center items-center">
                                 <img src={vehicleIcon} alt="Vehicle" className="custom-icon" />
                             </div>
                             <span className="menu-name opacity-0 group-hover:opacity-100 group-hover:ml-2 transition-all duration-300 text-gray-800 font-bold text-lg">Vehicle</span>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="menu-item group w-full p-2 flex items-center cursor-pointer transition duration-300 hover:bg-green-400 rounded-full">
-                        <a href="#" className="flex items-center space-x-4">
+                        <Link to="/equipment" className="flex items-center space-x-4">
                             <div className="icon flex justify-center items-center">
                                 <img src={equipmentIcon} alt="Equipment" className="custom-icon" />
                             </div>
                             <span className="menu-name opacity-0 group-hover:opacity-100 group-hover:ml-2 transition-all duration-300 text-gray-800 font-bold text-lg">Equipment</span>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="menu-item group w-full p-2 flex items-center cursor-pointer transition duration-300 hover:bg-green-400 rounded-full ">
-                        <a href="#" className="flex items-center space-x-4">
+                        <Link to="/crop" className="flex items-center space-x-4">
                             <div className="icon flex justify-center items-center">
                                 <img src={cropIcon} alt="Crop" className="custom-icon" />
                             </div>
                             <span className="menu-name opacity-0 group-hover:opacity-100 group-hover:ml-2 transition-all duration-300 text-gray-800 font-bold text-lg">Crop</span>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className="menu-item group w-full p-2 flex items-center cursor-pointer transition duration-300 hover:bg-green-400 rounded-full">
-                        <a href="#" className="flex items-center space-x-4">
+                        <Link to="/cropdetails" className="flex items-center space-x-4">
                             <div className="icon flex justify-center items-center">
                                 <img src={cropDetailsIcon} alt="Crop Details" className="custom-icon" />
                             </div>
                             <span className="menu-name opacity-0 group-hover:opacity-100 group-hover:ml-2 transition-all duration-300 text-gray-800 font-bold text-lg">Crop Details</span>
-                        </a>
+                        </Link>
                     </div>
                 </nav>
             </aside>
